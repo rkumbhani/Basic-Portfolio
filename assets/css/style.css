@@ -11,6 +11,35 @@ h1 {
     padding-top: 30px;
 }
 
+h2 {
+    color: lightseagreen;
+    font-size: 20pt;
+}
+
+h3 {
+    color: lightseagreen;
+    font-size: 18pt;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 18pt;
+    color: darkgray;
+}
+
+p.float {
+    position: relative;
+    z-index: 2;
+    color: darkgray;
+}
+
+hr {
+    background-color: lightgray;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 .main {
     position: fixed;
     top: 0;
@@ -90,4 +119,68 @@ li a {
     color: white;
     text-align: center;
     padding-top: 20px;
+}
+
+.pic {
+    float: left;
+    height: 150px;
+    width: auto;
+    z-index: 1;
+    padding-right: 10px;
+}
+
+.about {
+    float: left;
+    padding: 25px;
+    margin-top: 10%;
+    width: 500px;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.connect {
+    float: left;
+    padding: 25px;
+    margin-top: 10%;
+    width: 300px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    padding: 10px; 
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    width: 400px;   
+}
+
+.button {
+    background-color: lightseagreen;
+    float: right;
+    border: none;
+    margin-top: 20px;
+}
+
+.portfolio-1 {
+    position: relative;
+    float: left;
+    height: 150px;
+    z-index: 1;
+    padding: 10px;
+}
+
+.portfolio-2 {
+    position: relative;
+    float: left;
+    height: 150px;
+    z-index: 2;
+    padding: 10px;
 }
